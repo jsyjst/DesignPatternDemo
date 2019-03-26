@@ -1,4 +1,4 @@
-package Builder;
+package builder;
 
 /**
  * <pre>
@@ -23,6 +23,7 @@ public class MacBookBuilder extends Builder {
     public void buildOS() {
         computer.setOS();
     }
+
 
     @Override
     public Computer create() {
