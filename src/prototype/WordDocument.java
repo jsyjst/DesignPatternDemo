@@ -25,7 +25,7 @@ public class WordDocument implements Cloneable{
             //进行深拷贝
             doc.mImages = (ArrayList<String>) this.mImages.clone();
 //            doc.mImages = this.mImages;
-            
+
             return doc;
         }catch (Exception e){
             e.printStackTrace();
