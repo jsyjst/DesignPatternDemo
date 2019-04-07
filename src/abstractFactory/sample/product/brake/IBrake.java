@@ -4,7 +4,7 @@ package abstractFactory.sample.product.brake;
  * <pre>
  *     author : 残渊
  *     time   : 2019/04/06
- *     desc   : 制动系统接口
+ *     desc   : 抽象制动系统产品
  * </pre>
  */
 public interface IBrake {
