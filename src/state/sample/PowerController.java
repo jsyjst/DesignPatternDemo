@@ -4,8 +4,10 @@ package state.sample;
  * <pre>
  *     author : 残渊
  *     time   : 2019/04/24
- *     desc   :
+ *     desc   : 电视操作接口
  * </pre>
  */
-public class PowerController {
+public interface PowerController {
+    void powerOn();
+    void powerOff();
 }
